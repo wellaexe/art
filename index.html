@@ -14,7 +14,7 @@
    <nav>
     <a href="index.html"><img src="loogoo.png"></a>
      <div class="nav-links" id="navLinks">
-         <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+         <i class="fa fa-times-circle" onclick="hidemenu()"></i>
         <ul> 
             <l><a href="index.html">HOME</a></l>
             <l><a href="about.html">ABOUT</a></l>
@@ -23,7 +23,7 @@
             <l><a href="contact.html">CONTACT</a></l>
         </ul>
      </div>
-    <i class="fa fa-bars" onclick="showMenu()"></i>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
    </nav>
 <div class="text-box">
     <h1>wella_exe - Artist and Creator </h1>
@@ -38,10 +38,10 @@
     
     var navLinks = document.getElementById("navLinks")
     
-    function showMenu(){
+    function showmenu(){
         navLinks.style.right = "0";
     }
-        function hideMenu(){
+        function hidemenu(){
         navLinks.style.right = "-200px";
     }
 </script>
