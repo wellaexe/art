@@ -46,23 +46,6 @@ nav img{
     padding: 8px 12px;
     position: relative; 
 }
-.nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-} 
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #967f78;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.nav-links ul li:hover::after{
-    width: 100%
-}
 a {
     text-decoration: none;
     color: #fff;
