@@ -27,6 +27,14 @@
     background-size: cover;
     position: relative;  
 }
+.portfolio{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(112, 140, 255, 0.2),rgba(0, 38, 112, 0.3)),url(images/water portfolio.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
 nav{
     display: flex;
     padding: 2% 6%;
